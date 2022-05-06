@@ -5,6 +5,7 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/Skills";
 import Works from "./components/works/Works";
+import "./app.scss";
 
 function App() {
   return (

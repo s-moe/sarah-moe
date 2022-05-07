@@ -1,5 +1,7 @@
 import "./intro.scss";
 import { ExpandMore } from "@material-ui/icons";
+import Typewriter from "typewriter-effect";
+// import { useEffect } from "react";
 
 export default function Intro() {
   return (
@@ -14,7 +16,20 @@ export default function Intro() {
           <h2>Hi there, I'm</h2>
           <h1>Sarah Moe</h1>
           <h3>
-            Freelance <span>Designer</span>
+            Software Engineer &{" "}
+            <Typewriter
+              options={{
+                strings: [
+                  "former lawyer",
+                  "cat mom",
+                  "skimboarder",
+                  "weekend baker",
+                  "arts & crafts enthusiast",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h3>
         </div>
         <a href="#portfolio">

@@ -1,5 +1,5 @@
 import "./navBar.scss";
-import { PhoneIphone, MailOutline } from "@material-ui/icons";
+import { LinkedIn, GitHub } from "@material-ui/icons";
 
 export default function NavBar({ menuOpen, setMenuOpen }) {
   return (
@@ -10,13 +10,24 @@ export default function NavBar({ menuOpen, setMenuOpen }) {
             Sarah Moe
           </a>
           <div className="itemContainer">
-            <PhoneIphone className="icon" />
-            <span>+1 (425) 923 - 9939</span>
+            <a
+              href="https://www.linkedin.com/in/samoe/"
+              target="_blank"
+              rel="noreferrer"
+              className="icon"
+            >
+              <LinkedIn />
+            </a>
           </div>
-
           <div className="itemContainer">
-            <MailOutline className="icon" />
-            <span>sarahannmoe@gmail.com</span>
+            <a
+              href="https://github.com/s-moe"
+              target="_blank"
+              rel="noreferrer"
+              className="icon"
+            >
+              <GitHub />
+            </a>
           </div>
         </div>
 

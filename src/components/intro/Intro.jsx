@@ -28,6 +28,7 @@ export default function Intro() {
                 ],
                 autoStart: true,
                 loop: true,
+                pauseFor: 300,
               }}
             />
           </h3>

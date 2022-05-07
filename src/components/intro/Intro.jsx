@@ -3,6 +3,8 @@ import { ExpandMore } from "@material-ui/icons";
 import Typewriter from "typewriter-effect";
 // import { useEffect } from "react";
 
+// use copy from Portia for the heading, etc.
+
 export default function Intro() {
   return (
     <div className="intro" id="intro">

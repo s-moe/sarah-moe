@@ -1,4 +1,4 @@
-import "./topbar.scss";
+import "./navBar.scss";
 import { PhoneIphone, MailOutline } from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {

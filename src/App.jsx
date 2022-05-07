@@ -1,5 +1,5 @@
 import Blog from "./components/blog/Blog";
-import Topbar from "./components/topbar/Topbar";
+import NavBar from "./components/navBar/NavBar";
 import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -13,7 +13,7 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
-      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+      <NavBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <div className="sections">
         <Intro />

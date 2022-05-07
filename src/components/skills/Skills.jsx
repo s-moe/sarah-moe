@@ -1,4 +1,5 @@
 import "./skills.scss";
+import { Check } from "@material-ui/icons";
 
 export default function Skills() {
   return (
@@ -8,29 +9,80 @@ export default function Skills() {
       <ul>
         <li>
           <h3>Front End</h3>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>Vue.js</li>
-          <li>Nuxt.js</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>SCSS</li>
-          <li>JSX</li>
-          <li>Python</li>
-          <li>Bootstrap</li>
+          <li>
+            <Check />
+            JavaScript
+          </li>
+          <li>
+            <Check />
+            React.js
+          </li>
+          <li>
+            <Check />
+            Vue.js
+          </li>
+          <li>
+            <Check />
+            Nuxt.js
+          </li>
+          <li>
+            <Check />
+            HTML
+          </li>
+          <li>
+            <Check />
+            CSS
+          </li>
+          <li>
+            <Check />
+            SCSS
+          </li>
+          <li>
+            <Check />
+            JSX
+          </li>
+          <li>
+            <Check />
+            Python
+          </li>
+          <li>
+            <Check />
+            Bootstrap
+          </li>
         </li>
         <li>
           <h3>Back End</h3>
-          <li>Express.js</li>
-          <li>MongoDB</li>
-          <li>Node.js</li>
-          <li>Django</li>
-          <li>Next.js</li>
+          <li>
+            <Check />
+            Express.js
+          </li>
+          <li>
+            <Check />
+            MongoDB
+          </li>
+          <li>
+            <Check />
+            Node.js
+          </li>
+          <li>
+            <Check />
+            Django
+          </li>
+          <li>
+            <Check />
+            Next.js
+          </li>
         </li>
         <li>
           <h3>Testing</h3>
-          <li>Cypress</li>
-          <li>BackstopJS</li>
+          <li>
+            <Check />
+            Cypress
+          </li>
+          <li>
+            <Check />
+            BackstopJS
+          </li>
         </li>
       </ul>
     </div>

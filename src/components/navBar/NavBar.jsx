@@ -1,9 +1,9 @@
 import "./navBar.scss";
 import { PhoneIphone, MailOutline } from "@material-ui/icons";
 
-export default function Topbar({ menuOpen, setMenuOpen }) {
+export default function NavBar({ menuOpen, setMenuOpen }) {
   return (
-    <div className={"topbar " + (menuOpen && "active")}>
+    <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">

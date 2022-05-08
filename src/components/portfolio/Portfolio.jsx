@@ -7,21 +7,22 @@ export default function Portfolio() {
       id: 1,
       solidButton: "Live Site",
       outlineButton: "Github",
-      img: "./assets/microsoftEditor.png",
+      img: "./assets/microsoftEdgeWelcomeMB07.png",
 
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
-      liveSiteLink: "https://google.com",
+      liveSiteLink: "https://microsoftedgewelcome.microsoft.com/en-us/mb07",
       githubLink: "https://github.com/thinkpixellab/edgewelcome",
     },
     {
       id: 2,
       solidButton: "Live Site",
       outlineButton: "Github",
-      img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      img: "./assets/microsoftEdgeM365.png",
 
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
-      liveSiteLink: "https://microsoftedgewelcome.microsoft.com/en-us/mb07",
-      githubLink: "https://github.com/thinkpixellab/edgewelcome",
+      liveSiteLink:
+        "https://www.microsoft.com/en-us/edge/microsoft-365?exp=e11&form=MT0042",
+      githubLink: "https://github.com/thinkpixellab/edge365",
     },
     {
       id: 3,

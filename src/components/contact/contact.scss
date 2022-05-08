@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .contact {
   display: flex;
   .left {
@@ -5,8 +7,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: purple;
+    h2 {
+      font-size: 30px;
+    }
+    form {
+      width: 70%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: space-around;
+      input {
+        margin: 20px;
+        width: 300px;
+        height: 30px;
+        font-size: 14px;
+      }
+      textarea {
+        width: 300px;
+        height: 200px;
+        font-size: 14px;
+      }
+      button {
+        margin: 20px;
+        width: 150px;
+        height: 30px;
+        color: white;
+        background-color: $mainColor;
+        border: none;
+        border-radius: 10px;
+        font-weight: 500;
+        cursor: pointer;
+        &:focus {
+          outline: none;
+        }
+      }
+      span {
+        color: greenyellow;
+      }
+    }
   }
   .right {
     flex: 1;

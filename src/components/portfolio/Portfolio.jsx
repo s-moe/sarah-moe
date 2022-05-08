@@ -30,30 +30,30 @@ export default function Portfolio() {
       img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
 
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
-      featured: true,
+      // featured: true,
       liveSiteLink: "https://google.com",
       githubLink: "https://github.com/thinkpixellab/edgewelcome",
     },
-    {
-      id: 4,
-      solidButton: "Live Site",
-      outlineButton: "Github",
-      img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    // {
+    //   id: 4,
+    //   solidButton: "Live Site",
+    //   outlineButton: "Github",
+    //   img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
 
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
-      liveSiteLink: "https://google.com",
-      githubLink: "https://github.com/thinkpixellab/edgewelcome",
-    },
-    {
-      id: 5,
-      solidButton: "Live Site",
-      outlineButton: "Github",
-      img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+    //   liveSiteLink: "https://google.com",
+    //   githubLink: "https://github.com/thinkpixellab/edgewelcome",
+    // },
+    // {
+    //   id: 5,
+    //   solidButton: "Live Site",
+    //   outlineButton: "Github",
+    //   img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
 
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
-      liveSiteLink: "https://google.com",
-      githubLink: "https://github.com/thinkpixellab/edgewelcome",
-    },
+    //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+    //   liveSiteLink: "https://google.com",
+    //   githubLink: "https://github.com/thinkpixellab/edgewelcome",
+    // },
   ];
   return (
     <div className="portfolio" id="portfolio">
@@ -63,18 +63,16 @@ export default function Portfolio() {
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
             <div className="top">
-              <img src="assets/right-arrow.png" className="left" alt="" />
               <img className="user" src={d.img} alt="" />
-              <img className="right" src={d.icon} alt="" />
             </div>
             <div className="center">{d.desc}</div>
             <div className="bottom">
-              <button>
+              <button className="solidButton">
                 <a href={d.liveSiteLink} target="_blank" rel="noreferrer">
                   {d.solidButton}
                 </a>
               </button>
-              <button>
+              <button className="outlineButton">
                 {" "}
                 <a href={d.githubLink} target="_blank" rel="noreferrer">
                   {d.outlineButton}

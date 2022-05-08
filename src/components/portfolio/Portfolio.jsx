@@ -19,7 +19,7 @@ export default function Portfolio() {
       outlineButton: "Github",
       img: "./assets/microsoftEdgeM365.png",
 
-      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      desc: "Web application built using Vue and implementing Cypress for accessibility and functional testing.",
       liveSiteLink:
         "https://www.microsoft.com/en-us/edge/microsoft-365?exp=e11&form=MT0042",
       githubLink: "https://github.com/thinkpixellab/edge365",

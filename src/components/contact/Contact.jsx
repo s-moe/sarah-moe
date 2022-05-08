@@ -1,6 +1,7 @@
 import "./contact.scss";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import { LocalPhone } from "@material-ui/icons";
 
 export default function Contact() {
   // const [name, setName] = useState("");
@@ -34,8 +35,6 @@ export default function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="left">
-        <h2>Contact</h2>
-
         <form ref={form} onSubmit={handleSubmit}>
           {/* <label>Name</label> */}
           <input type="text" name="name" placeholder="Name" className="input" />
@@ -92,7 +91,14 @@ export default function Contact() {
         {/* </form> */}
       </div>
       <div className="right">
-        <img src="" alt="" />
+        <div className="wrapper">
+          <h2>Contact Me</h2>
+
+          <LocalPhone>
+            <h2 className="phoneNumber">+1 425.923.9939</h2>{" "}
+          </LocalPhone>
+          <h3>hello@sarahmoe.com</h3>
+        </div>
       </div>
     </div>
   );

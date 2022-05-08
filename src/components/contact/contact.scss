@@ -9,9 +9,7 @@
     align-items: center;
     justify-content: center;
     background-color: yellow;
-    h2 {
-      font-size: 30px;
-    }
+
     form {
       width: 70%;
       height: 70%;
@@ -55,5 +53,8 @@
   .right {
     flex: 1;
     background-color: white;
+    h2 {
+      font-size: 30px;
+    }
   }
 }

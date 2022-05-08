@@ -1,4 +1,5 @@
 import "./portfolio.scss";
+// import { Link } from "react-router-dom";
 
 export default function Portfolio() {
   const data = [
@@ -9,6 +10,8 @@ export default function Portfolio() {
       img: "./assets/microsoftEditor.png",
 
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+      liveSiteLink: "https://google.com",
+      githubLink: "https://github.com/thinkpixellab/edgewelcome",
     },
     {
       id: 2,
@@ -17,6 +20,8 @@ export default function Portfolio() {
       img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
 
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+      liveSiteLink: "https://microsoftedgewelcome.microsoft.com/en-us/mb07",
+      githubLink: "https://github.com/thinkpixellab/edgewelcome",
     },
     {
       id: 3,
@@ -26,6 +31,8 @@ export default function Portfolio() {
 
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
       featured: true,
+      liveSiteLink: "https://google.com",
+      githubLink: "https://github.com/thinkpixellab/edgewelcome",
     },
     {
       id: 4,
@@ -34,6 +41,8 @@ export default function Portfolio() {
       img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
 
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+      liveSiteLink: "https://google.com",
+      githubLink: "https://github.com/thinkpixellab/edgewelcome",
     },
     {
       id: 5,
@@ -42,6 +51,8 @@ export default function Portfolio() {
       img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
 
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+      liveSiteLink: "https://google.com",
+      githubLink: "https://github.com/thinkpixellab/edgewelcome",
     },
   ];
   return (
@@ -58,8 +69,17 @@ export default function Portfolio() {
             </div>
             <div className="center">{d.desc}</div>
             <div className="bottom">
-              <button>{d.solidButton}</button>
-              <button>{d.outlineButton}</button>
+              <button>
+                <a href={d.liveSiteLink} target="_blank" rel="noreferrer">
+                  {d.solidButton}
+                </a>
+              </button>
+              <button>
+                {" "}
+                <a href={d.githubLink} target="_blank" rel="noreferrer">
+                  {d.outlineButton}
+                </a>
+              </button>
             </div>
           </div>
         ))}

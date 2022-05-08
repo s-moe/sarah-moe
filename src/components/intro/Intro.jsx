@@ -27,6 +27,8 @@ export default function Intro() {
                   "skimboarder",
                   "weekend baker",
                   "arts & crafts enthusiast",
+                  "healthcare activist",
+                  "'fun aunt' - Charlie",
                 ],
                 autoStart: true,
                 loop: true,

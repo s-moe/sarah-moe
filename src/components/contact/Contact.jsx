@@ -7,6 +7,8 @@ export default function Contact() {
         <h2>Contact</h2>
         <form action="">
           <input type="text" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Send</button>
         </form>
       </div>
       <div className="right">

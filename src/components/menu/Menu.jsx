@@ -27,7 +27,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
           <a href="#blog">Blog</a>
         </li>
         <li onClick={() => setMenuOpen(false)}>
-          <a href="#contact">Contact</a>
+          <a href="">Contact</a>
         </li>
       </ul>
     </div>

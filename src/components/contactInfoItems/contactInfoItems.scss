@@ -1,0 +1,32 @@
+@import "../../global.scss";
+
+.contactInfoItem {
+  padding: 2rem;
+  background-color: $darkYellow;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  .icon {
+    color: black;
+    // background-color: $peach;
+    position: relative;
+    width: 60px;
+    height: 40px;
+    top: 5px;
+    left: 5px;
+
+    // padding: 1.3rem;
+    // align-items: center;
+    // justify-content: center;
+    // border-radius: 50%;
+  }
+  //   svg {
+  //     width: 2rem;
+  //   }
+  .text {
+    font-size: 40px;
+    padding-left: 10px;
+  }
+}

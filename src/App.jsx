@@ -1,6 +1,6 @@
 import Blog from "./components/blog/Blog";
 import NavBar from "./components/navBar/NavBar";
-import Contact from "./components/contact/Contact";
+import Contact from "./pages/Contact";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/Skills";

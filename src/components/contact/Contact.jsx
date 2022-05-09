@@ -53,7 +53,7 @@ export default function Contact() {
             className="input"
             required
           />
-          <input type="submit" value="Send" />
+          <input type="submit" value="Send" className="button" />
         </form>
         {/* <form onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>

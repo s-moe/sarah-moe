@@ -10,7 +10,7 @@
 
   .left {
     flex: 0.5;
-    background-color: yellow;
+    background-color: $lightYellow;
     overflow: hidden;
     .imgContainer {
       margin: 50px;
@@ -33,7 +33,7 @@
   }
   .right {
     flex: 0.5;
-    background-color: pink;
+    background-color: $lightYellow;
     position: relative;
     .wrapper {
       width: 100%;
@@ -60,7 +60,7 @@
         font-size: 35px;
         span {
           font-size: inherit;
-          color: green;
+          color: $pink;
         }
         @include mobile {
           font-size: 20px;
@@ -74,7 +74,8 @@
       #arrowDown {
         width: 70px;
         font-size: 5em;
-        animation: arrowBlink 2s infinite;
+        animation: arrowBlink 3s infinite;
+        color: $black;
       }
       @keyframes arrowBlink {
         100% {

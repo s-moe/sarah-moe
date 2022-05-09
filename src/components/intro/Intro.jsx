@@ -28,7 +28,7 @@ export default function Intro() {
                   "weekend baker",
                   "arts & crafts enthusiast",
                   "healthcare activist",
-                  "'fun aunt' - Charlie",
+                  "'fun aunt' - Charlie, age 5",
                 ],
                 autoStart: true,
                 loop: true,
@@ -36,8 +36,16 @@ export default function Intro() {
               }}
             />
           </h3>
+          <h4>
+            <a
+              href="documents/Portfolio Rough Draft Resume.docx.pdf"
+              target="_blank"
+            >
+              View My Resume
+            </a>
+          </h4>
         </div>
-        <a href="#portfolio">
+        <a href="#skills">
           <ExpandMore id="arrowDown" />
         </a>
       </div>

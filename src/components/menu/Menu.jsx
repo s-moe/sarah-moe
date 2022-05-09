@@ -7,13 +7,13 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         <li onClick={() => setMenuOpen(false)}>
           <a href="#intro">Home</a>
         </li>
-
-        <li onClick={() => setMenuOpen(false)}>
-          <a href="#portfolio">Portfolio</a>
-        </li>
         <li onClick={() => setMenuOpen(false)}>
           <a href="#skills">Skills</a>
         </li>
+        <li onClick={() => setMenuOpen(false)}>
+          <a href="#portfolio">Portfolio</a>
+        </li>
+
         <li onClick={() => setMenuOpen(false)}>
           <a
             href="documents/Portfolio Rough Draft Resume.docx.pdf"
@@ -22,11 +22,12 @@ export default function Menu({ menuOpen, setMenuOpen }) {
             Resume
           </a>
         </li>
-        <li onClick={() => setMenuOpen(false)}>
-          <a href="#contact">Contact</a>
-        </li>
+
         <li onClick={() => setMenuOpen(false)}>
           <a href="#blog">Blog</a>
+        </li>
+        <li onClick={() => setMenuOpen(false)}>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>

@@ -1,37 +1,143 @@
 @import "../../global.scss";
 
-.form {
-  width: 100%;
-  .form-group {
-    width: 100%;
-    margin-bottom: 2rem;
+// .form {
+//   width: 70%;
+//   height: 100vh;
+//   background-color: lightblue;
+//   margin: 70px;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   box-shadow: 0px 0px 15px -8px black;
+
+//   .form-group {
+//     width: 70%;
+//     padding: 20px;
+//   }
+//   label {
+//     font-size: 1.8rem;
+//   }
+//   input,
+//   textarea {
+//     width: 90%;
+//     font-size: 1rem;
+//     padding: 1.2rem;
+//     color: grey;
+//     //     background-color: $peach;
+//     //     outline: none;
+//     border: solid 1px black;
+//     //     border-radius: 8px;
+//     margin-top: 1rem;
+//   }
+//   textarea {
+//     min-height: 250px;
+//     resize: vertical;
+//   }
+//   button[type="submit"] {
+//     width: 50%;
+//     margin-left: 70px;
+//     background-color: $black;
+//     color: white;
+//     font-size: 1.5rem;
+//     display: inline-block;
+//     padding: 1rem 4rem;
+//     border-radius: 8px;
+//     cursor: pointer;
+//   }
+// }
+///
+
+// form {
+//   width: 70%;
+//   height: 100%;
+//   display: flex;
+//   margin: 50px;
+//   flex-direction: column;
+//   background-color: $peach;
+//   align-items: center;
+//   justify-content: center;
+//   box-shadow: 0px 0px 15px -8px black;
+//   justify-content: space-around;
+//   label {
+//     background-color: blue;
+//     padding: 10px;
+//   }
+// }
+
+// input {
+//   width: 350px;
+//   height: 50px;
+//   font-size: 14px;
+//   border: 1px solid black;
+//   background-color: white;
+// }
+// textarea {
+//   width: 350px;
+//   height: 200px;
+//   font-size: 14px;
+//   background-color: white;
+//   border: 1px solid black;
+// }
+//     .button {
+//       margin: 20px;
+//       width: 400px;
+//       height: 50px;
+//       color: white;
+//       background-color: black;
+//       border: none;
+//       // border-radius: 10px;
+//       font-weight: 500;
+//       border: 1px solid black;
+//       cursor: pointer;
+//       &:focus {
+//         outline: none;
+//       }
+//     }
+//     .input {
+//       margin: 20px;
+//     }
+//   }
+// }
+form {
+  width: 70%;
+  height: 100%;
+  background-color: $peach;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 15px -8px black;
+  margin: 50px;
+  padding: 30px;
+  input {
+    width: 400px;
+    height: 50px;
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 20px;
   }
-  label {
-    font-size: 1.8rem;
-  }
-  input,
   textarea {
-    width: 100%;
-    font-size: 2rem;
-    padding: 1.2rem;
-    color: grey;
-    background-color: $peach;
-    outline: none;
-    border: solid 1px black;
-    border-radius: 8px;
-    margin-top: 1rem;
+    width: 400px;
+    height: 200px;
+    font-size: 14px;
+    border: 1px solid black;
+    margin: 20px;
   }
-  textarea {
-    min-height: 250px;
-    resize: vertical;
-  }
-  button[type="submit"] {
-    background-color: $black;
+  .button {
+    margin: 10px;
+    font-size: 1.2em;
+    width: 400px;
+    height: 50px;
     color: white;
-    font-size: 2rem;
-    display: inline-block;
-    padding: 1rem 4rem;
-    border-radius: 8px;
+    background-color: black;
+    border: none;
+    // border-radius: 10px;
+    font-weight: 500;
+    border: 1px solid black;
     cursor: pointer;
+    &:focus {
+      outline: none;
+    }
   }
 }

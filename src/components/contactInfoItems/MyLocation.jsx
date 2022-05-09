@@ -3,7 +3,7 @@ import "./contactInfoItems.scss";
 import { PersonPin } from "@material-ui/icons";
 import React from "react";
 
-export default function ContactInfoItem() {
+export default function MyLocation() {
   return (
     <div className="contactInfoItem">
       <div className="info">

@@ -3,7 +3,7 @@ import ContactSection from "../components/contact/ContactSection";
 
 export default function Contact() {
   return (
-    <div>
+    <div id="contact">
       <ContactSection />
     </div>
   );

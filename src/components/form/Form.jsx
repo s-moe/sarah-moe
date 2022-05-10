@@ -55,6 +55,7 @@ export default function Form() {
             className="input"
             id="email"
             value={email}
+            required
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
@@ -67,6 +68,7 @@ export default function Form() {
             className="input"
             id="message"
             value={message}
+            required
             onChange={(e) => setMessage(e.target.value)}
           />
         </div>

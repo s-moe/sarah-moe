@@ -21,6 +21,7 @@
     list-style: none;
     font-size: 40px;
     font-weight: 300;
+    font-family: "Plus Jakarta Sans";
     color: $black;
     width: 60%;
     li {
@@ -31,7 +32,7 @@
         text-decoration: none;
       }
       &:hover {
-        font-weight: 400;
+        font-weight: 700;
       }
     }
   }

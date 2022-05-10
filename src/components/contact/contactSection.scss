@@ -6,6 +6,7 @@
   margin-top: 7rem;
   justify-content: space-between;
   position: relative;
+
   .left {
     flex: 1;
     display: flex;
@@ -30,6 +31,7 @@
     padding-left: 1em;
     // background-color: $darkYellow;
     h1 {
+      font-family: "Jeko Bold";
       font-size: 50px;
       display: flex;
       justify-content: left;

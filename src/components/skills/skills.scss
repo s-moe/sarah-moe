@@ -1,6 +1,7 @@
 @import "../../global.scss";
 
 .skills {
+  font-family: "Jeko Bold";
   background-color: $peach;
   display: flex;
   flex-direction: column;
@@ -10,7 +11,7 @@
     font-size: 50px;
     overflow: hidden;
     margin-top: 10px;
-    padding: 1.8em;
+    padding: 1em;
   }
   ul {
     margin-left: 100px;
@@ -23,6 +24,9 @@
       // margin-left: 50px;
       padding: 0.7px;
       font-size: 1.3em;
+      .check {
+        margin-right: 10px;
+      }
     }
   }
   h3 {

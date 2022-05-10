@@ -17,7 +17,7 @@ export default function ContactSection() {
         <Form />
       </div>
       <div className="right">
-        <h1>Contact Me</h1>
+        <h1> Contact Me</h1>
         <PhoneNumber />
         <EmailAddress />
         <MyLocation />

@@ -10,77 +10,77 @@ export default function Skills() {
         <li>
           <h3>Front End</h3>
           <li>
-            <Check />
+            <Check className="check" />
             JavaScript
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             React.js
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             Vue.js
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             Nuxt.js
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             HTML
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             CSS
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             SCSS
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             JSX
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             Python
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             Bootstrap
           </li>
         </li>
         <li>
           <h3>Back End</h3>
           <li>
-            <Check />
+            <Check className="check" />
             Express.js
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             MongoDB
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             Node.js
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             Django
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             Next.js
           </li>
         </li>
         <li>
           <h3>Testing</h3>
           <li>
-            <Check />
+            <Check className="check" />
             Cypress
           </li>
           <li>
-            <Check />
+            <Check className="check" />
             BackstopJS
           </li>
         </li>

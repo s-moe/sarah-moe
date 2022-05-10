@@ -6,7 +6,7 @@ import React from "react";
 export default function MyLocation() {
   return (
     <div className="contactInfoItem">
-      <div className="info">
+      <div className="info" id="myLocation">
         {" "}
         <PersonPin className="icon" />
         <span className="text"> Seattle, WA</span>

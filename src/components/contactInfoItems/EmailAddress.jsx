@@ -7,7 +7,7 @@ import React from "react";
 export default function EmailAddress() {
   return (
     <div className="contactInfoItem">
-      <div className="info">
+      <div className="info" id="mail">
         {" "}
         <Mail className="icon" />
         <span className="text"> hello@sarahmoe.com</span>

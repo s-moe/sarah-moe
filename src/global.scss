@@ -4,8 +4,12 @@ $black: black;
 $darkYellow: #ffd833;
 $peach: #fff6d6;
 $pink: #ff91af;
-
 $width: 768px;
+
+@font-face {
+  font-family: "Jeko Bold";
+  src: url(./fonts/JekoBold.otf);
+}
 
 @mixin mobile {
   @media (max-width: #{$width}) {
